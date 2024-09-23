@@ -1,0 +1,110 @@
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 2rem;
+    height: 75vh;
+}
+
+.details {
+    flex-basis: 40%;
+    margin-left: 6vw;
+    flex-grow: 1;
+    margin-top: -100px;
+}
+
+.form {
+    flex-basis: 40%;
+    flex-grow: 1;
+    padding-top: 50px;
+}
+
+.heading {
+    font-size: 5rem;
+    font-weight: 800;
+}
+
+.text {
+    font-weight: 300;
+    line-height: 1.75rem;
+    width: 35rem;
+    font-size: 16px;
+    margin-top: -30px;
+}
+
+.icons {
+    margin-right: 10px;
+}
+
+.input, .textarea {
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 1rem;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.input {
+    width: 20vw;
+    height: 50px;
+}
+
+.phone {
+    display: flex;
+}
+
+.phone .input {
+    width: 15vw;
+    margin-right: 20px;
+}
+
+.textarea {
+    height: 22vh;
+    width: 20vw;
+    padding-top: 10px;
+    padding-left: 15px;
+    font-family: "Poppins"; 
+    margin-top: -20px;
+    text-align: left;
+}
+
+.button button {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(244, 244, 111);
+    border-radius: 15px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 20px 0 0 100px;
+    cursor: pointer;
+    transition: font-size 0.2s, font-weight 0.2s, border 0.2s;
+}
+
+.button button:hover {
+    border: 1px solid rgb(163, 163, 0);
+    font-weight: 900;
+    font-size: .95rem;
+}
+
+.formElement, .formText {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+
+.formElement label, .formText label {
+    font-size: 18px;
+    position: absolute;
+    top: -12px;
+    left: 10px;
+    background-color: white;
+    padding: 0 10px;
+}
+
+.formText label {
+    top: -32px;
+}
