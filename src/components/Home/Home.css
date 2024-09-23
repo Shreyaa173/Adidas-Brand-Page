@@ -1,0 +1,85 @@
+.content{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.content-left h1{
+    font-size: 55px;
+    width: 40vw;
+    font-weight: 900;
+    margin-top: -10px;
+}
+
+.content-left p{
+    width: 40vw;
+    font-weight: 300;
+    margin-top: -20px;
+}
+
+.shoes{
+    width: 700px;
+}
+
+.buttons .btn{
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 17px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.buttons .btn1{
+    background-color: rgb(255, 55, 55);
+    margin-right: 30px;
+    color: white;
+    border: 1px solid rgb(255, 55, 55);
+}
+
+.btn1:hover{
+    font-weight: 600;
+}
+
+.btn2 a{
+    color: black;
+}
+
+.btn2:hover{
+    background-color: rgb(255, 55, 55);
+    font-weight: 500;
+    border: none;
+}
+
+.btn2 a:hover{
+    color: white;
+}
+
+h4{
+    font-weight: 300;
+}
+
+.images{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.shop{
+    width: 80px;
+    margin-top: -15px;
+    cursor: pointer;
+}
+
+.flipkart{
+    width: 65px;
+}
